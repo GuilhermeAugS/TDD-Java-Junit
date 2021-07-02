@@ -1,0 +1,38 @@
+Teste automatizados vantagens
+
+Automatização
+Feedback mais rápido
+Segurança ao mexer no código
+Favorecer a melhoria no código(Refactoring)
+
+Junit5
+Biblioteca padrão para escrita de testes automatizados em Java.
+Criado em 1995 por Kent Beck e Erich Gamma.
+Gratuito e open source.
+Foco em testes de unidade(Unitarios).
+
+TDD
+Testes antes, código depois
+
+Teste -> Implementação -> Refatoração.
+As vezes não e necessario refatorar.
+
+Quando usar?
+Vantagem:
+Cógigo já sai "testado";
+Evita testes "viciados" na implementação;
+Refatoração faz parte do processo;
+Ajuda a manter o foco;
+Temos uma "tendênia" em escrever um código mais simples.
+
+Quando utilizar TDD?
+Quando não se sabe como vai ser o código. 
+
+Exceptions
+modo de chamar uma exceptions lançar a exceptions, chamando após o assertEqualsThrows("Exception que passou.class no fim", (isso e uma lambda a seguir)() -> metodo a ser chamado. 
+
+Também e importante que se refature os casos de teste;
+
+Importante testar classes que tenham regras de negócio, que tenha validação, classes que tendem a mudar no futuro;
+
+Não se testa construtor ou um objeto que so tenha get e set;
